@@ -1,3 +1,5 @@
+//NOT PRIMARY SCRIPT FILE
+
 const form = document.querySelector("#memeForm");
 const tpTxtInp = document.querySelector('input[name="inputTop"]');
 const btmTxtInp = document.querySelector('input[name="inputBottom"]');

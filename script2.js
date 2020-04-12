@@ -4,10 +4,9 @@ const btmTxtInp = document.querySelector('input[name="inputBottom"]');
 const urlInp = document.querySelector('input[name="inputUrl"]');
 const results = document.querySelector("#memeBody");
 
-form.addEventListener("submit", function(e) {
+form.addEventListener("submit", function (e) {
   //prevents from spamming the submit button
   if (!urlInp.value) {
-    console.log("worked");
     e.preventDefault();
     return;
   }
@@ -16,7 +15,7 @@ form.addEventListener("submit", function(e) {
   form.reset();
 });
 
-results.addEventListener("click", function(e) {
+results.addEventListener("click", function (e) {
   if (e.target.tagName === "BUTTON") {
     e.target.parentElement.parentElement.remove();
   }
