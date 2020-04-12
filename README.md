@@ -1,1 +1,3 @@
-A Simply Meme Generator
+# A Simple Meme Generator
+
+Exercise in DOM manipulation 
