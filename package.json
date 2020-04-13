@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "homepage": "http://<username>.github.io/<repo-name2>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
